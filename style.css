@@ -3,3 +3,27 @@ body {
   height: 100%;
   margin: 0;
 }
+h1, nav, figure, p
+{text-align: center;}
+
+a[href$=".html"],
+a[href$=".gov"] {
+  padding-left: 10px;
+  padding-right: 10px;
+  background-color: pink;
+}
+#featured-property p{
+  margin-left: auto;
+  margin-right: auto;
+  text-align:center;
+  font-size: small;
+  width: 800px;
+  vertical-align: top;
+}
+div{float: left;
+    background-color: powderblue;
+    text-align: center;
+    width: 25%;}
+
+
+
